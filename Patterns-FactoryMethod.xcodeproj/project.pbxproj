@@ -15,6 +15,7 @@
 		A218E436277F2A2B00459A5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A218E434277F2A2B00459A5C /* LaunchScreen.storyboard */; };
 		A218E43E277F2ACF00459A5C /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A218E43D277F2ACF00459A5C /* Exercise.swift */; };
 		A218E440277F2B7200459A5C /* JumpingJacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A218E43F277F2B7200459A5C /* JumpingJacks.swift */; };
+		A236A3B7278073B100C0E1F4 /* PullUps.swift in Sources */ = {isa = PBXBuildFile; fileRef = A236A3B6278073B100C0E1F4 /* PullUps.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A218E437277F2A2B00459A5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A218E43D277F2ACF00459A5C /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		A218E43F277F2B7200459A5C /* JumpingJacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingJacks.swift; sourceTree = "<group>"; };
+		A236A3B6278073B100C0E1F4 /* PullUps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullUps.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				A218E42B277F2A2A00459A5C /* SceneDelegate.swift */,
 				A218E43D277F2ACF00459A5C /* Exercise.swift */,
 				A218E43F277F2B7200459A5C /* JumpingJacks.swift */,
+				A236A3B6278073B100C0E1F4 /* PullUps.swift */,
 				A218E42D277F2A2A00459A5C /* ViewController.swift */,
 				A218E42F277F2A2A00459A5C /* Main.storyboard */,
 				A218E432277F2A2B00459A5C /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 				A218E42A277F2A2A00459A5C /* AppDelegate.swift in Sources */,
 				A218E440277F2B7200459A5C /* JumpingJacks.swift in Sources */,
 				A218E42C277F2A2A00459A5C /* SceneDelegate.swift in Sources */,
+				A236A3B7278073B100C0E1F4 /* PullUps.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
