@@ -16,6 +16,7 @@
 		A218E43E277F2ACF00459A5C /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A218E43D277F2ACF00459A5C /* Exercise.swift */; };
 		A218E440277F2B7200459A5C /* JumpingJacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A218E43F277F2B7200459A5C /* JumpingJacks.swift */; };
 		A236A3B7278073B100C0E1F4 /* PullUps.swift in Sources */ = {isa = PBXBuildFile; fileRef = A236A3B6278073B100C0E1F4 /* PullUps.swift */; };
+		A236A3BA2780762400C0E1F4 /* ExerciseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A236A3B92780762400C0E1F4 /* ExerciseFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A218E43D277F2ACF00459A5C /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		A218E43F277F2B7200459A5C /* JumpingJacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingJacks.swift; sourceTree = "<group>"; };
 		A236A3B6278073B100C0E1F4 /* PullUps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullUps.swift; sourceTree = "<group>"; };
+		A236A3B92780762400C0E1F4 /* ExerciseFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +66,8 @@
 			children = (
 				A218E429277F2A2A00459A5C /* AppDelegate.swift */,
 				A218E42B277F2A2A00459A5C /* SceneDelegate.swift */,
-				A218E43D277F2ACF00459A5C /* Exercise.swift */,
-				A218E43F277F2B7200459A5C /* JumpingJacks.swift */,
-				A236A3B6278073B100C0E1F4 /* PullUps.swift */,
+				A236A3B8278075C100C0E1F4 /* Exercises */,
+				A236A3BB278077DB00C0E1F4 /* Factories */,
 				A218E42D277F2A2A00459A5C /* ViewController.swift */,
 				A218E42F277F2A2A00459A5C /* Main.storyboard */,
 				A218E432277F2A2B00459A5C /* Assets.xcassets */,
@@ -74,6 +75,24 @@
 				A218E437277F2A2B00459A5C /* Info.plist */,
 			);
 			path = "Patterns-FactoryMethod";
+			sourceTree = "<group>";
+		};
+		A236A3B8278075C100C0E1F4 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				A218E43D277F2ACF00459A5C /* Exercise.swift */,
+				A218E43F277F2B7200459A5C /* JumpingJacks.swift */,
+				A236A3B6278073B100C0E1F4 /* PullUps.swift */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		A236A3BB278077DB00C0E1F4 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				A236A3B92780762400C0E1F4 /* ExerciseFactory.swift */,
+			);
+			path = Factories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +169,7 @@
 				A218E42E277F2A2A00459A5C /* ViewController.swift in Sources */,
 				A218E43E277F2ACF00459A5C /* Exercise.swift in Sources */,
 				A218E42A277F2A2A00459A5C /* AppDelegate.swift in Sources */,
+				A236A3BA2780762400C0E1F4 /* ExerciseFactory.swift in Sources */,
 				A218E440277F2B7200459A5C /* JumpingJacks.swift in Sources */,
 				A218E42C277F2A2A00459A5C /* SceneDelegate.swift in Sources */,
 				A236A3B7278073B100C0E1F4 /* PullUps.swift in Sources */,
